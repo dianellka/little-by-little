@@ -1,0 +1,100 @@
+<link rel="stylesheet" href="style.css">
+<div class="page">
+
+  <header class="header">
+
+    <a class="logo" href="#">little by little<span>.</span></a>
+
+    <span class="menu">A LITTLE PROGRESS EVERY DAY</span>
+
+  </header>
+
+  <main class="hero">
+
+    <p class="eyebrow">YOUR PERSONAL GOAL PLANNER</p>
+
+    <h1>
+
+      Big goals.<br>
+
+      <span>Small steps.</span>
+
+    </h1>
+
+    <p class="description">
+
+      You don't have to do everything today.
+
+      Just take one small step towards
+
+      something that matters to you.
+
+    </p>
+
+    <button class="start-button">
+
+      Start your journey <span>→</span>
+
+    </button>
+
+    <p class="note">One step at a time. At your own pace.</p>
+
+  </main>
+
+<section class="goal-section" id="goal-section">
+
+  <p class="eyebrow">STEP 01 — YOUR BEGINNING</p>
+
+  <h2>What would you like<br>to achieve?</h2>
+
+  <p class="goal-description">
+    Every big achievement starts somewhere.
+    Tell us about your goal, and we'll help
+    you break it into small steps.
+  </p>
+
+  <label for="user-goal">YOUR GOAL</label>
+
+  <input
+    type="text"
+    id="user-goal"
+    placeholder="I want to..."
+  >
+<label for="daily-time">TIME AVAILABLE PER DAY</label>
+
+<select id="daily-time">
+  <option value="10">10 minutes</option>
+  <option value="20">20 minutes</option>
+  <option value="30">30 minutes</option>
+  <option value="60">60 minutes</option>
+</select>
+  <button class="continue-button">
+    Continue →
+  </button>
+<p id="goal-result" class="goal-result"></p>
+  <ul id="steps-list"></ul>
+  <div id="progress-container">
+
+  <p id="progress-text">0% completed</p>
+
+  <div class="progress-bar">
+    <div id="progress-fill"></div>
+  </div>
+<p id="completion-message"></p>
+</div>
+  <p class="small-note">
+    Don't worry about the size of your dream.
+  </p>
+
+</section>
+
+  <footer class="footer">
+
+    <span>MAKE PROGRESS, NOT PRESSURE.</span>
+
+    <span>© LITTLE BY LITTLE</span>
+
+  </footer>
+
+</div>
+<script src="script.js"></script>
